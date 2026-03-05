@@ -1,0 +1,16 @@
+---
+deployment:
+  tasks:
+    # IMPORTANT: Update YOUR_USERNAME to your specific cPanel username
+    - export DEPLOYPATH=/home/YOUR_USERNAME/public_html/
+    
+    # Assuming this is a Vite/React project (based on the workspace), 
+    # you might want to build the project first if it's not already built.
+    # Uncomment the following lines if you want cPanel to build the project:
+    # - /usr/bin/npm install
+    # - /usr/bin/npm run build
+    
+    # Copy the dist directory to the deployment path.
+    # Note: If you want the *contents* of dist directly in public_html, 
+    # you may need to adjust the path or use rsync to avoid wildcards.
+    - /bin/cp -R dist $DEPLOYPATH
