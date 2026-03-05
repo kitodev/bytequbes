@@ -1,0 +1,136 @@
+{
+    "nav": {
+        "home": "Home",
+        "projects": "Projects",
+        "about": "About",
+        "contact": "Contact",
+        "get_in_touch": "Get in Touch"
+    },
+    "home": {
+        "studio": "Web Development Studio",
+        "build": "We Build",
+        "digital_products": "Digital Products",
+        "description": "ByteQubes crafts modern, high-performance web applications that drive growth and deliver exceptional user experiences.",
+        "view_projects": "View Projects",
+        "get_in_touch": "Get in Touch",
+        "why_bytequbes": "Why ByteQubes",
+        "what_sets_us_apart": "What Sets Us Apart",
+        "cta": {
+            "title": "Ready to Start Your Project?",
+            "description": "Let's discuss your idea and turn it into a reality. We're here to help you every step of the way.",
+            "button": "Contact Us"
+        },
+        "features": {
+            "clean_code": {
+                "title": "Clean Code",
+                "description": "We write maintainable, well-documented code following industry best practices and modern patterns."
+            },
+            "scalable_architecture": {
+                "title": "Scalable Architecture",
+                "description": "Our solutions are built to grow with your business, handling millions of users without breaking a sweat."
+            },
+            "fast_delivery": {
+                "title": "Fast Delivery",
+                "description": "Agile workflows and modern tooling let us ship production-ready products in record time."
+            }
+        }
+    },
+    "about": {
+        "title": "About Us",
+        "subtitle": "Our Story",
+        "hero_title": "Building the Future, One Byte at a Time",
+        "story_p1": "ByteQubes was founded with a simple belief: great software should be beautiful, fast, and built to last. We're a team of passionate developers, designers, and strategists who love turning complex ideas into elegant digital products.",
+        "story_p2": "From startups to enterprises, we've partnered with businesses across industries to deliver web applications that make a real impact. Our approach combines technical excellence with creative design to produce results that exceed expectations.",
+        "values_title": "Our Values",
+        "values_subtitle": "What We Stand For",
+        "stats": {
+            "projects": "Projects Delivered",
+            "clients": "Happy Clients",
+            "experience": "Years Experience",
+            "satisfaction": "Client Satisfaction"
+        },
+        "values_list": {
+            "mission": {
+                "title": "Mission-Driven",
+                "description": "We focus on solving real problems with elegant, user-centric digital solutions."
+            },
+            "collaborative": {
+                "title": "Collaborative",
+                "description": "We work closely with clients, treating every project as a partnership."
+            },
+            "quality": {
+                "title": "Quality First",
+                "description": "Every line of code is tested, reviewed, and built to last."
+            },
+            "growth": {
+                "title": "Growth-Oriented",
+                "description": "We build products designed to scale as your business grows."
+            }
+        }
+    },
+    "projects": {
+        "title": "Our Projects",
+        "items": {
+            "shopflow": {
+                "title": "ShopFlow",
+                "description": "A comprehensive e-commerce platform with real-time inventory management, advanced analytics dashboard, and seamless payment integration for modern online retailers."
+            },
+            "estatehub": {
+                "title": "EstateHub",
+                "description": "A high-performance real estate listing platform featuring interactive maps, virtual tours, and an intelligent property matching algorithm for buyers and agents."
+            },
+            "datapulse": {
+                "title": "DataPulse",
+                "description": "An enterprise-grade SaaS analytics dashboard providing real-time business intelligence, custom report generation, and predictive insights powered by machine learning."
+            },
+            "feastapp": {
+                "title": "FeastApp",
+                "description": "A cross-platform food delivery application with real-time order tracking, restaurant management tools, and a loyalty rewards system for frequent customers."
+            },
+            "fittrack": {
+                "title": "FitTrack Pro",
+                "description": "A fitness tracking platform with personalized workout plans, progress analytics, social challenges, and integration with popular wearable devices."
+            },
+            "newswire": {
+                "title": "NewsWire",
+                "description": "A modern digital news platform with dynamic content management, real-time updates, personalized feeds, and optimized for high-traffic editorial operations."
+            }
+        }
+    },
+    "contact": {
+        "title": "Contact Us",
+        "subtitle": "Get in Touch",
+        "description": "Let's Talk About Your Project",
+        "cta_text": "Have an idea you'd like to bring to life? We'd love to hear from you. Reach out and let's start building something great.",
+        "labels": {
+            "name": "Name",
+            "email": "Email",
+            "subject": "Subject",
+            "message": "Message",
+            "phone": "Phone",
+            "address": "Address"
+        },
+        "placeholders": {
+            "name": "John Doe",
+            "email": "john@example.com",
+            "subject": "Project inquiry",
+            "message": "Tell us about your project..."
+        },
+        "button": "Send Message",
+        "sent": "Message Sent! ✓"
+    },
+    "footer": {
+        "description": "Modern web development studio building exceptional digital experiences.",
+        "links": "Quick Links",
+        "legal": "Legal",
+        "terms": "Terms of Service",
+        "privacy": "Privacy Policy",
+        "cookie": "Cookie Policy",
+        "rights": "All rights reserved."
+    },
+    "not_found": {
+        "title": "404",
+        "subtitle": "Oops! Page not found",
+        "return_home": "Return to Home"
+    }
+}

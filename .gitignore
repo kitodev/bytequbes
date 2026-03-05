@@ -1,0 +1,114 @@
+# ----------------------
+# OS generated files
+# ----------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ----------------------
+# Environment variables
+# ----------------------
+.env
+.env.*
+*.local
+
+# ----------------------
+# Dependency directories
+# ----------------------
+node_modules/
+vendor/
+
+# ----------------------
+# Build output
+# ----------------------
+dist/
+build/
+out/
+target/
+coverage/
+
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*.egg
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ----------------------
+# Java
+# ----------------------
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+build/
+
+# ----------------------
+# C / C++
+# ----------------------
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+
+# ----------------------
+# IDE / Editor files
+# ----------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# ----------------------
+# Temporary files
+# ----------------------
+tmp/
+temp/
+*.tmp
+*.cache
+
+# ----------------------
+# Mac
+# ----------------------
+.AppleDouble
+.LSOverride
+
+# ----------------------
+# Linux
+# ----------------------
+*~
+
+# ----------------------
+# Windows
+# ----------------------
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp

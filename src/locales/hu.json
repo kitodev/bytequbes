@@ -1,0 +1,136 @@
+{
+    "nav": {
+        "home": "Főoldal",
+        "projects": "Projektek",
+        "about": "Rólunk",
+        "contact": "Kapcsolat",
+        "get_in_touch": "Lépjen kapcsolatba"
+    },
+    "home": {
+        "studio": "Webfejlesztő Stúdió",
+        "build": "Építünk",
+        "digital_products": "Digitális Termékeket",
+        "description": "A ByteQubes modern, nagy teljesítményű webalkalmazásokat készít, amelyek ösztönzik a növekedést és kivételes felhasználói élményt nyújtanak.",
+        "view_projects": "Projektek Megtekintése",
+        "get_in_touch": "Lépjen kapcsolatba",
+        "why_bytequbes": "Miért a ByteQubes",
+        "what_sets_us_apart": "Ami Megkülönböztet Minket",
+        "cta": {
+            "title": "Készen áll a projekt elindítására?",
+            "description": "Beszéljük meg az ötletét, és váltsuk valóra. Itt vagyunk, hogy minden lépésben segítsünk.",
+            "button": "Kapcsolat"
+        },
+        "features": {
+            "clean_code": {
+                "title": "Tiszta Kód",
+                "description": "Karbantartható, jól dokumentált kódot írunk az iparági legjobb gyakorlatok és modern minták követésével."
+            },
+            "scalable_architecture": {
+                "title": "Skálázható Architektúra",
+                "description": "Megoldásainkat úgy építjük fel, hogy együtt nőjenek az üzletével, és millió felhasználót kezeljenek anélkül, hogy megizzadnának."
+            },
+            "fast_delivery": {
+                "title": "Gyors Szállítás",
+                "description": "Az agilis munkafolyamatok és a modern eszközök lehetővé teszik számunkra, hogy rekordidő alatt szállítsunk gyártásra kész termékeket."
+            }
+        }
+    },
+    "about": {
+        "title": "Rólunk",
+        "subtitle": "Történetünk",
+        "hero_title": "A jövő építése, bájtról bájtra",
+        "story_p1": "A ByteQubes-t azzal az egyszerű meggyőződéssel alapították, hogy a nagyszerű szoftvernek szépnek, gyorsnak és tartósnak kell lennie. Szenvedélyes fejlesztők, tervezők és stratégák csapata vagyunk, akik imádják az összetett ötleteket elegáns digitális termékekké alakítani.",
+        "story_p2": "A startupoktól a nagyvállalatokig, számos iparágban együttműködtünk cégekkel olyan webalkalmazások szállításában, amelyek valódi hatást gyakorolnak. Megközelítésünk ötvözi a technikai kiválóságot a kreatív tervezéssel, hogy az elvárásokat meghaladó eredményeket érjünk el.",
+        "values_title": "Értékeink",
+        "values_subtitle": "Amit képviselünk",
+        "stats": {
+            "projects": "Átadott projektek",
+            "clients": "Elégedett ügyfelek",
+            "experience": "Év tapasztalat",
+            "satisfaction": "Ügyfél elégedettség"
+        },
+        "values_list": {
+            "mission": {
+                "title": "Küldetésvezérelt",
+                "description": "Valódi problémák megoldására összpontosítunk elegáns, felhasználóközpontú digitális megoldásokkal."
+            },
+            "collaborative": {
+                "title": "Együttműködő",
+                "description": "Szorosan együttműködünk az ügyfelekkel, minden projektet partnerségként kezelve."
+            },
+            "quality": {
+                "title": "Minőség az első",
+                "description": "Minden kódsort tesztelünk, felülvizsgálunk és tartósra építünk."
+            },
+            "growth": {
+                "title": "Növekedésorientált",
+                "description": "Olyan termékeket építünk, amelyeket úgy tervezünk, hogy az üzletével együtt skálázódjanak."
+            }
+        }
+    },
+    "projects": {
+        "title": "Projektjeink",
+        "items": {
+            "shopflow": {
+                "title": "ShopFlow",
+                "description": "Egy átfogó e-kereskedelmi platform valós idejű készletkezeléssel, fejlett analitikai műszerfallal és zökkenőmentes fizetési integrációval a modern online kiskereskedők számára."
+            },
+            "estatehub": {
+                "title": "EstateHub",
+                "description": "Nagy teljesítményű ingatlanhirdetési platform interaktív térképekkel, virtuális túrákkal és intelligens ingatlan-párosító algoritmussal vásárlók és ügynökök számára."
+            },
+            "datapulse": {
+                "title": "DataPulse",
+                "description": "Vállalati szintű SaaS analitikai műszerfal, amely valós idejű üzleti intelligenciát, egyéni jelentéskészítést és gépi tanuláson alapuló prediktív betekintést nyújt."
+            },
+            "feastapp": {
+                "title": "FeastApp",
+                "description": "Platformokon átívelő ételkiszállítási alkalmazás valós idejű rendeléskövetéssel, étteremkezelő eszközökkel és hűségjutalmazási rendszerrel a törzsvásárlók számára."
+            },
+            "fittrack": {
+                "title": "FitTrack Pro",
+                "description": "Fitneszkövető platform személyre szabott edzéstervekkel, haladási elemzésekkel, közösségi kihívásokkal és a népszerű viselhető eszközökkel való integrációval."
+            },
+            "newswire": {
+                "title": "NewsWire",
+                "description": "Modern digitális híroldal dinamikus tartalomkezeléssel, valós idejű frissítésekkel, személyre szabott hírcsatornákkal és nagy forgalmú szerkesztőségi műveletekre optimalizálva."
+            }
+        }
+    },
+    "contact": {
+        "title": "Kapcsolat",
+        "subtitle": "Vegye fel a kapcsolatot",
+        "description": "Beszéljünk a projektjéről",
+        "cta_text": "Van egy ötlete, amit szeretne életre kelteni? Szeretnénk hallani Önről. Keressen minket, és kezdjünk el építeni valami nagyszerűt.",
+        "labels": {
+            "name": "Név",
+            "email": "Email",
+            "subject": "Tárgy",
+            "message": "Üzenet",
+            "phone": "Telefon",
+            "address": "Cím"
+        },
+        "placeholders": {
+            "name": "Minta János",
+            "email": "janos@pelda.hu",
+            "subject": "Projekt érdeklődés",
+            "message": "Meséljen nekünk a projektjéről..."
+        },
+        "button": "Üzenet Küldése",
+        "sent": "Üzenet Elküldve! ✓"
+    },
+    "footer": {
+        "description": "Modern webfejlesztő stúdió, amely kivételes digitális élményeket épít.",
+        "links": "Gyors Linkek",
+        "legal": "Jogi nyilatkozat",
+        "terms": "Felhasználási feltételek",
+        "privacy": "Adatvédelmi irányelvek",
+        "cookie": "Süti tájékoztató",
+        "rights": "Minden jog fenntartva."
+    },
+    "not_found": {
+        "title": "404",
+        "subtitle": "Hoppá! Az oldal nem található",
+        "return_home": "Vissza a főoldalra"
+    }
+}
