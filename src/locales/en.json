@@ -70,30 +70,53 @@
     },
     "projects": {
         "title": "Our Projects",
+        "hero_subtitle": "A curated showcase of digital products we've crafted — from complex SaaS platforms to polished consumer apps.",
+        "grid_title": "Client Work & Passion Projects",
+        "featured": "Featured",
+        "live_demo": "Live Demo",
+        "source": "Source",
+        "view_details": "View Details",
+        "empty": "No projects in this category yet.",
+        "stack_label": "Stack",
+        "stack_title": "Technologies We Love",
+        "collaborate": "Let's Collaborate",
+        "about_us": "About Us",
         "items": {
             "shopflow": {
                 "title": "ShopFlow",
-                "description": "A comprehensive e-commerce platform with real-time inventory management, advanced analytics dashboard, and seamless payment integration for modern online retailers."
+                "description": "A comprehensive e-commerce platform with real-time inventory management, advanced analytics dashboard, and seamless payment integration for modern online retailers.",
+                "challenge": "The client needed to replace a legacy monolithic system that couldn't handle peak traffic spikes during sales events, causing revenue loss and poor user experience.",
+                "solution": "We built a microservices-based architecture with React on the frontend and a Node.js/PostgreSQL backend, integrating Stripe for payments and a real-time WebSocket inventory system."
             },
             "estatehub": {
                 "title": "EstateHub",
-                "description": "A high-performance real estate listing platform featuring interactive maps, virtual tours, and an intelligent property matching algorithm for buyers and agents."
+                "description": "A high-performance real estate listing platform featuring interactive maps, virtual tours, and an intelligent property matching algorithm for buyers and agents.",
+                "challenge": "Real estate agents needed a platform that could surface the right properties to buyers quickly, reducing time-to-match from weeks to days.",
+                "solution": "We leveraged Next.js with Supabase for a blazing-fast SSR experience, built an AI matching engine, and integrated Mapbox for interactive property map search."
             },
             "datapulse": {
                 "title": "DataPulse",
-                "description": "An enterprise-grade SaaS analytics dashboard providing real-time business intelligence, custom report generation, and predictive insights powered by machine learning."
+                "description": "An enterprise-grade SaaS analytics dashboard providing real-time business intelligence, custom report generation, and predictive insights powered by machine learning.",
+                "challenge": "The client's data team was spending 40% of their time manually generating reports from disparate data sources, slowing down business decisions.",
+                "solution": "We built a Python-powered data pipeline on AWS with a React dashboard. ML models were integrated for anomaly detection and revenue forecasting, all accessible in one unified UI."
             },
             "feastapp": {
                 "title": "FeastApp",
-                "description": "A cross-platform food delivery application with real-time order tracking, restaurant management tools, and a loyalty rewards system for frequent customers."
+                "description": "A cross-platform food delivery application with real-time order tracking, restaurant management tools, and a loyalty rewards system for frequent customers.",
+                "challenge": "The client wanted to enter the competitive food delivery market with a differentiated product — one that prioritized restaurant partner success, not just consumer experience.",
+                "solution": "We created a React Native app with Firebase for real-time GPS tracking and a dedicated restaurant dashboard with analytics, order management, and promotions tools."
             },
             "fittrack": {
                 "title": "FitTrack Pro",
-                "description": "A fitness tracking platform with personalized workout plans, progress analytics, social challenges, and integration with popular wearable devices."
+                "description": "A fitness tracking platform with personalized workout plans, progress analytics, social challenges, and integration with popular wearable devices.",
+                "challenge": "Fitness apps often fail due to lack of engagement. The client needed a platform that would keep users motivated through the first 30 days — their biggest churn window.",
+                "solution": "We built social challenge features, AI-driven adaptive workout plans, and deep integrations with Apple Health, Garmin, and Fitbit using Vue.js and a Node.js backend."
             },
             "newswire": {
                 "title": "NewsWire",
-                "description": "A modern digital news platform with dynamic content management, real-time updates, personalized feeds, and optimized for high-traffic editorial operations."
+                "description": "A modern digital news platform with dynamic content management, real-time updates, personalized feeds, and optimized for high-traffic editorial operations.",
+                "challenge": "A major media group needed to migrate from a slow, inflexible CMS to a modern platform that could handle breaking news at scale without performance degradation.",
+                "solution": "We built a Next.js platform with GraphQL and Redis caching to handle millions of concurrent readers. A custom CMS was designed for editorial speed, with personalized feeds driven by user behavior."
             }
         }
     },

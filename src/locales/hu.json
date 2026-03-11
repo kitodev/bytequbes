@@ -70,30 +70,53 @@
     },
     "projects": {
         "title": "Projektjeink",
+        "hero_subtitle": "Egy válogatott bemutató a digitális termékekről, amelyeket alkottunk — komplex SaaS platformoktól a csiszolt fogyasztói alkalmazásokig.",
+        "grid_title": "Ügyfélmunkák és Saját Projektek",
+        "featured": "Kiemelt",
+        "live_demo": "Éles Demo",
+        "source": "Forráskód",
+        "view_details": "Részletek",
+        "empty": "Ebben a kategóriában még nincsenek projektek.",
+        "stack_label": "Tech Stack",
+        "stack_title": "Technológiák, Amiket Szeretünk",
+        "collaborate": "Dolgozzunk Együtt",
+        "about_us": "Rólunk",
         "items": {
             "shopflow": {
                 "title": "ShopFlow",
-                "description": "Egy átfogó e-kereskedelmi platform valós idejű készletkezeléssel, fejlett analitikai műszerfallal és zökkenőmentes fizetési integrációval a modern online kiskereskedők számára."
+                "description": "Egy átfogó e-kereskedelmi platform valós idejű készletkezeléssel, fejlett analitikai műszerfallal és zökkenőmentes fizetési integrációval a modern online kiskereskedők számára.",
+                "challenge": "Az ügyfélnek egy régi, monolitikus rendszert kellett lecserélnie, amely nagy értékestési időszakokban nem tudta kezelni a forgalomnövekményt, ami bevételkieséshez vezet.",
+                "solution": "Mikroszolgáltatás-alapú architektúrát építettünk React frontenddel és Node.js/PostgreSQL backenddel, Stripe fizetési integrációval és valós idejű WebSocket készletrendszerrel."
             },
             "estatehub": {
                 "title": "EstateHub",
-                "description": "Nagy teljesítményű ingatlanhirdetési platform interaktív térképekkel, virtuális túrákkal és intelligens ingatlan-párosító algoritmussal vásárlók és ügynökök számára."
+                "description": "Nagy teljesítményű ingatlanhirdetési platform interaktív térképekkel, virtuális túrákkal és intelligens ingatlan-párosító algoritmussal vásárlók és ügynökök számára.",
+                "challenge": "Az ingatlanosonak olyan platformra volt szükségük, amely gyorsan tudja összepárosítani a vevőket és az ingatlanokat, heti szintről napi szintre csökkentve az egyeztetési időt.",
+                "solution": "Next.js-t és Supabase-t alkalmaztunk a villámgyors SSR élményért, AI párosító motort építettünk, és Mapbox térképet integráltunk az interaktív ingatlankereséshez."
             },
             "datapulse": {
                 "title": "DataPulse",
-                "description": "Vállalati szintű SaaS analitikai műszerfal, amely valós idejű üzleti intelligenciát, egyéni jelentéskészítést és gépi tanuláson alapuló prediktív betekintést nyújt."
+                "description": "Vállalati szintű SaaS analitikai műszerfal, amely valós idejű üzleti intelligenciát, egyéni jelentéskészítést és gépi tanuláson alapuló prediktív betekintést nyújt.",
+                "challenge": "Az ügyfél adatcsapata munkaidejének 40%-át különböző adatforrásokból származó jelentések manuális elkészítésével töltötte, ami lassította az üzleti döntéshozatalt.",
+                "solution": "Python alapú adatfolyamatot építettünk AWS-en React dashboarddal. ML-modelleket integráltunk anomáliadetektáláshoz és bevétel-előrejelzéshez, mindezt egyetlen felhasználói felületen."
             },
             "feastapp": {
                 "title": "FeastApp",
-                "description": "Platformokon átívelő ételkiszállítási alkalmazás valós idejű rendeléskövetéssel, étteremkezelő eszközökkel és hűségjutalmazási rendszerrel a törzsvásárlók számára."
+                "description": "Platformokon átívelő ételkiszállítási alkalmazás valós idejű rendeléskövetéssel, étteremkezelő eszközökkel és hűségjutalmazási rendszerrel a törzsvásárlók számára.",
+                "challenge": "Az ügyfél egy megkülönböztetett termékkel kívánt belépni az ételházhozás-piacra — olyat, amely elsősorban az éttermi partneresíkkal foglalkozik.",
+                "solution": "React Native alkalmazást hoztunk létre Firebase valós idejű GPS követéssel és dedikált étterem-dashboarddal analítikával, rendeléskezeléssel és promociós eszközökkel."
             },
             "fittrack": {
                 "title": "FitTrack Pro",
-                "description": "Fitneszkövető platform személyre szabott edzéstervekkel, haladási elemzésekkel, közösségi kihívásokkal és a népszerű viselhető eszközökkel való integrációval."
+                "description": "Fitneszkövető platform személyre szabott edzéstervekkel, haladási elemzésekkel, közösségi kihívásokkal és a népszerű viselhető eszközökkel való integrációval.",
+                "challenge": "A fitneszalkalmazások gyakran elmélyítési problémák miatt buknak meg. Az ügyfélnek olyan platformra volt szüksége, amely az első 30 napban megtartja a felhasználókat.",
+                "solution": "Közösségi kihívás funkciókat, AI-vezérelt adaptív edzésterveket és Apple Health, Garmin, Fitbit integrációkat építettünk Vue.js és Node.js backend használatával."
             },
             "newswire": {
                 "title": "NewsWire",
-                "description": "Modern digitális híroldal dinamikus tartalomkezeléssel, valós idejű frissítésekkel, személyre szabott hírcsatornákkal és nagy forgalmú szerkesztőségi műveletekre optimalizálva."
+                "description": "Modern digitális híroldal dinamikus tartalomkezeléssel, valós idejű frissítésekkel, személyre szabott hírcsatornákkal és nagy forgalmú szerkesztőségi műveletekre optimalizálva.",
+                "challenge": "Egy nagy médiacsoport át kívánt térni egy lassú, rugalmatlan CMS-ről egy modern platformra, amely skálázhatóan kezeli a friss híreket.",
+                "solution": "Next.js platformot építettünk GraphQL-lel és Redis gyorsítótárral a millíók párhuzamos olvasásához, egyedi CMS-sel szerkesztési sebességre optimalizálva."
             }
         }
     },
