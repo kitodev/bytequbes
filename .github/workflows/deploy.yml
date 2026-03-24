@@ -2,8 +2,11 @@ name: Deploy
 
 on:
   push:
-    branches: [ "main", "master" ]
+    branches: [ "main", "master", "develop" ]
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build_site:
@@ -38,23 +41,21 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: site-build
-          path: site-build
+          path: dist
 
-      # --- Choose your deployment method ---
-
-      # OPTION 1: GitHub Pages (uncomment and configure if needed)
-      # - name: Deploy to GitHub Pages
-      #   uses: JamesIves/github-pages-deploy-action@v4
-      #   with:
-      #     folder: site-build
-      #     branch: gh-pages
+      # OPTION 1: GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist
+          branch: gh-pages
 
       # OPTION 2: FTP (e.g., cPanel - requires secrets.FTP_SERVER, secrets.FTP_USERNAME, secrets.FTP_PASSWORD)
-      # - name: Deploy via FTP
-      #   uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-      #   with:
-      #     server: ${{ secrets.FTP_SERVER }}
-      #     username: ${{ secrets.FTP_USERNAME }}
-      #     password: ${{ secrets.FTP_PASSWORD }}
-      #     local-dir: ./site-build/
-      #     server-dir: /public_html/
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./dist/
+          server-dir: /public_html/
